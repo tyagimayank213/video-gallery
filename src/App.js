@@ -23,8 +23,8 @@ function playVideo(file) {
         <div className="row">
             <div className="col">
                 <div className="feature-img">
-                    <img alt="" src="https://i.ytimg.com/vi/0REvHOemNDQ/maxresdefault.jpg" width="100%" />
-                    <img alt="" src="https://www.freeiconspng.com/thumbs/button-icon-png/play-button-icon-png-17.png" className="play-btn" onClick={(e)=>playVideo('media/v1.mp4')} />
+                    <img alt="" src="media/s11.png" width="100%" />
+                    <img alt="" src="https://www.freeiconspng.com/thumbs/button-icon-png/play-button-icon-png-17.png" className="play-btn" onClick={(e)=>playVideo('media/v11.mp4')} />
                 </div>
             </div>
             <div className="col">
@@ -83,6 +83,12 @@ function playVideo(file) {
                 <div className="feature-img">
                     <img alt="" src="https://i.ytimg.com/vi/VNs_cCtdbPc/maxresdefault.jpg" width="100%"></img>
                     <img alt="" src="https://www.freeiconspng.com/thumbs/button-icon-png/play-button-icon-png-17.png" className="play-btn" onClick={(e)=>playVideo('media/v10.mp4')} />
+                </div>
+            </div>
+            <div className="col">
+                <div className="feature-img">
+                    <img alt="" src="https://i.ytimg.com/vi/0REvHOemNDQ/maxresdefault.jpg" width="100%"></img>
+                    <img alt="" src="https://www.freeiconspng.com/thumbs/button-icon-png/play-button-icon-png-17.png" className="play-btn" onClick={(e)=>playVideo('media/v1.mp4')} />
                 </div>
             </div>
         </div>
